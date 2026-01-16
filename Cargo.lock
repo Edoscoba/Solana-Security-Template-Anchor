@@ -648,6 +648,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "payment-evil"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
+name = "payment-legit"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
 name = "proc-macro-crate"
 version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1461,7 +1475,36 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f6ccf251212114b54433ec949fd6a7841275f9ada20dddd2f29e9ceea4501493"
 
 [[package]]
+name = "vault-cpi-injection"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+ "payment-legit",
+]
+
+[[package]]
 name = "vault-missing-signer"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
+name = "vault-pda-spoofing"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
+name = "vault-signing-oracle"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
+name = "vault-unchecked-math"
 version = "0.1.0"
 dependencies = [
  "anchor-lang",

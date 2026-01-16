@@ -6,7 +6,12 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
+payment-evil = "9cHbdhPtPzpsMkxmmLP3nsnicuewSneNQSkCw5JmbRBF"
+payment-legit = "2S1KrvmHnCG2bDdYAihwjD9SxZUUuiwuY8stTnwPoPek"
+vault-cpi-injection = "tJ3RVWjt66opLJdVJXBeEAQuKbwbDQq5fKg3cTxod1o"
 vault-pda-spoofing = "6PuAoUiJhy2eQ9YvkB5gogqPcQd28tcvuYsUSR9UJhLx"
+vault-signing-oracle = "5AsYzhPMktSi3K3eniimDhRhwHQnMRznAVCkXRyzwRSg"
+vault-unchecked-math = "7PTR49svEPiHgnRQUfJ2wSYkP3MCiord6U7NWHAHKkzB"
 vault_missing_signer = "Gs9TPn7LwjpoSwsc9juKqTA9owmxYA63Cxzwr8RbKEBp"
 
 [registry]
