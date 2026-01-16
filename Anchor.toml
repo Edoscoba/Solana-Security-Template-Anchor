@@ -1,0 +1,20 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+vault-pda-spoofing = "6PuAoUiJhy2eQ9YvkB5gogqPcQd28tcvuYsUSR9UJhLx"
+vault_missing_signer = "Gs9TPn7LwjpoSwsc9juKqTA9owmxYA63Cxzwr8RbKEBp"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 \"tests/**/*.ts\""
